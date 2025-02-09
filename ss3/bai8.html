@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http:www.myserver.com" method="post">
+        <table>
+            <tr>
+                <th align="left"><label for="name">Ho va ten:</label></th>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="date of birth">Ngay sinh:</label></th>
+                <td><input type="date" id="day of birth" name="ngay sinh"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="gioitinh">Gioi tinh:</label></th>
+                <td><label for="gioitinh"> <input type="radio" name="gender" id="gioitinh" value="Nam">nam</label>
+                    <label for="gioitinh"> <input type="radio" name="gender" id="gioitinh" value="Nu">nu</label></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="cancuoc">So can cuoc cong dan:</label></th>
+                <td><input type="number" name="cancuoc" id="cancuoc"></td>  
+            </tr>
+            <tr>
+                <th align="left"><label for="ngay cap">Ngay cap:</label></th>
+                <td><input type="date" id="ngay cap" name="ngay cap"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="noi cap">Noi cap:</label></th>
+                <td><input type="text" name="noi cap" id="noi cap"></td>
+            </tr> 
+            <tr>
+                <th align="left"><label for="phone">So dien thoai:</label></th>
+                <td><input type="number" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="email">Email</label></th>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="thuongtru">Dia chi thuong tru:</label></th>
+                <td><textarea id="thuongtru"></textarea></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="tramtru">Dia chi tram tru:</label></th>
+                <td><textarea id="tramtru"></textarea></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="loai">Loai can cuoc cong dan:</label></th>
+                <td><label><input type="radio" name="loai" id="loai" value="can cuoc cong dan moi">Can cuoc cong dan moi</label></td>
+                <td><label><input type="radio" name="loai" id="loai" value="can cuoc cong dan cu">Can cuoc cong dan cu</label></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="dantoc">Dan toc</label></th>
+                <td><input type="text" name="dantoc" id="dantoc"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="tongiao">Ton giao</label></th>
+                <td><input type="text" name="tongiao" id="tongiao"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="quoctich">Quoc tich</label></th>
+                <td><input type="text" name="quoctich" id="quoctich" value="Viet Nam" readonly></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="name cha me">Ho va ten cha/me:</label></th>
+                <td><input type="text" id="name cha me" name="name"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="cancuocchame">So CMND/CCCD cua cha/me:</label></th>
+                <td><input type="number" name="cancuoc" id="cancuocchame"></td>  
+            </tr>
+            <tr>
+                <th align="left"><label for="tinh/thanhpho">Tinh/Thanh Pho</label></th>
+                <td><select id="tinh/thanhpho">
+                    <option value="tinh/thanhpho">chon tinh/thanhpho</option>
+                    <option value="HN">Ha Noi</option>
+                    <option value="HCM">tp HCM</option>
+                    <option value="DN">Da Nang</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><button>Gui thong tin</button></td>
+            </tr>
+        </table> 
+    </form> 
+</body>
+</html>

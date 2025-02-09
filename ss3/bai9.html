@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http:www.myserver.com" method="post">
+        <table>
+            <tr>
+                <th align="left"><label for="name">Ho va ten:</label></th>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="date of birth">Ngay sinh:</label></th>
+                <td><input type="date" id="day of birth" name="ngay sinh"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="gioitinh">Gioi tinh:</label></th>
+                <td><label for="gioitinh"> <input type="radio" name="gender" id="gioitinh" value="Nam">nam</label>
+                    <label for="gioitinh"> <input type="radio" name="gender" id="gioitinh" value="Nu">nu</label></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="phone">So dien thoai:</label></th>
+                <td><input type="number" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="email">Email:</label></th>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="diachi">Dia chi:</label></th>
+                <td><textarea  id="diachi"></textarea></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="vaitro">vai tro dang ky:</label></th>
+                <td><select name="vaitro" id="vaitro">
+                    <option value="tv">thanh vien</option>
+                    <option value="ktv">quan tri vien</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="hobby">so thich:</label></th>
+                <td><input type="text" id="hobby" name="hobby"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="kynang">Ky nang:</label></th>
+                <td><textarea  id="kynang"></textarea></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="thoigian">thoi gian ranh:</label></th>
+                <td><label><input type="checkbox" id="thoigian" name="time" value="sang">sang</label>
+                    <label><input type="checkbox" id="thoigian" name="time" value="chieu">chieu</label>
+                    <label><input type="checkbox" id="thoigian" name="time" value="toi">toi</label></td> 
+            </tr>
+            <tr>
+                <th align="left"><label for="lydo">Ly do tham gia:</label></th>
+                <td><textarea  id="lydo"></textarea></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="color">Mau yeu thich:</label></th>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <th align="left"><label for="thongbao">Nhan thong bao qua Email:</label></th>
+                <td>
+                    <label for="thongbao"> <input type="radio" name="hoi" id="thongbao" value="co">co</label>
+                    <label for="thongbao"> <input type="radio" name="hoi" id="thongbao" value="khong">khong</label>
+                </td>
+            </tr>
+            <tr>
+                <th><button>Dang ky thanh vien</button></th>
+            </tr>
+        </table>
+    </form>    
+</body>
+</html>
